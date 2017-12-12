@@ -1,7 +1,7 @@
 ---
 - include_vars: main.yml
 
-- name: Put the spoiler text in the tmp directory on the remote server.
+- name: Checking Vault.
   copy:
     content="{{spoiler_text}}"
-    dest=/tmp/spoiler_text.txt
+    dest=/tmp/Checking_vault.txt
